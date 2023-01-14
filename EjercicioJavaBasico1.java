@@ -3,18 +3,6 @@ package Ejercicio;
 public class EjercicioJavaBasico1 {
     public static void main(String[] args) {
 
-        byte variable1 = 10;
-        short variable2 = 123;
-        int variable3 = 34413;
-        long variable4 = 34699331;
-        float variable5 = 12.1f;
-        double variable6 = 24.30;
-
-        char variable7 = 'a';package Ejercicio;
-
-public class EjercicioJavaBasico1 {
-    public static void main(String[] args) {
-
         byte number1 = 10;
         short number2 = 123;
         int number3 = 34413;
@@ -40,8 +28,6 @@ public class EjercicioJavaBasico1 {
         String apellido = "Mattar";
 
         System.out.println("los el nombre del autor es: " + nombre + " " + apellido);
-
-
 
     }
 }       
