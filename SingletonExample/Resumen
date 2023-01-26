@@ -1,0 +1,16 @@
+Estructuras Creacionales
+Patron Singleton: solamente puede haber una instancia de una clase. Este patrón pretende evitar que se creen nuevas instancias. Es decir, evita que se creen objetos nuevos al instanciarlos, ya que compartirán los espacios de memoria que se le asigna cuando fue creado por primera vez.
+También sirve para compartir conexiones a una base de datos, compartir acceso a un mismo fichero, evitar la instanciación de una aplicación múltiple veces
+
+Patron Factory: sirve para crear una jerarquía de clases y utilizar una u otra de forma transparente. Es necesario determinar el método que va implementar por debajo nuestra jerarquía, se usa la clase interface o abstract.
+
+Patron Builder: nos permite construir objetos complejos paso a paso, en vez de usar un mega constructor. Los builders utilizar un método de programación fluida (visto en programación funcional).
+
+Patron Prototipe: tiene como objetivo clonarse a si mismo, es decir que una clase se clone a si misma y herede todas las propiedades de la versión previa. También sus estados de las variables.
+
+Estructuras Estructurales:
+Patron Decorador: añade funcionalidad a una clase existente sin modificar esa clase existente. Funciona como una cadena de llamadas cuando se crea en el main.
+
+Patron Adaptador: Crea una clase intermedia que permite una clase con la misma y con distinta implementación funcionen coherentemente. Se utiliza mucho con código legacy, es decir  cuando se actualizan las librerías y es necesario crear adaptadores sin modificar el código fuente. Cuando se crea el objeto adaptado se lo crea desde su clase donde se ha realizado la adaptación.  Es decir, se agarra una clase que no es compatible con nuestra interfaz y sobre esa clase hemos construido un adaptador que implementa una interfaz que si es compatible con lo que yo tengo.
+
+Patron Fachada/ facade: Esconde toda la lógica en una sola llamada. Es ocultar la complejidad mostrando lo sencillo.
